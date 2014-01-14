@@ -1,0 +1,212 @@
+body * {
+	vertical-align: top;
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: 'Droid Serif', serif;
+	background: rgb(222, 226, 228);
+}
+
+h2 {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: .3em;
+}
+
+h3 {
+	color: rgb(248, 50, 66);
+	font-family:  'Merriweather Sans', sans-serif;
+	font-weight: lighter;	
+}
+
+h5 {
+	color: rgb(248, 50, 66);
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0px;
+	letter-spacing: .3em;
+}
+
+time {
+	color: gray;
+	font-family:  'Merriweather Sans', sans-serif;
+}
+
+a:hover {
+	color: rgb(248, 50, 66);
+}
+
+/*header area*/
+.header {
+	background: rgb(25, 11, 31);
+	
+}
+
+.header p {
+	color: gray;
+	margin-top: 0px;
+}
+
+.header h3 {
+	font-size: 16px;
+}
+
+.header strong {
+	color: white;
+}
+
+.wrapper {
+	padding: 50px;
+}
+
+.summary {
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: lighter;
+	display: inline-block;
+	width: 500px;
+}
+
+.summary p {
+	border-bottom: 1px solid gray;
+	padding: 20px 0px;
+}
+
+/*Navigation Bar*/
+.navbar {
+	background: black;
+	color: white;
+	height: 90px;
+}
+
+.navbar ul {
+	margin: 0 auto;
+	padding-left: 75px;
+}
+
+.navbar li {
+	display: inline-block;
+	text-transform: uppercase;
+	font-family:  'Merriweather Sans', sans-serif;
+	line-height: 70px;
+	padding: 10px 20px;
+}
+
+.navbar a {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar a:hover {
+	color: rgb(248, 50, 66)
+}
+
+.active  {
+	background: rgb(248, 50, 66);
+}
+
+.active a:hover{
+	color: white;
+}
+
+.navbar li:hover .active  {
+	color: white;
+}
+
+/*content*/
+.content {
+	padding: 60px 75px 0px;
+}
+
+.designer {
+	background: white;
+	padding: 0px;
+	margin: 40px 0px;
+}
+
+.designer h3{
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 45px;
+	margin: 0px;
+}
+
+.info {
+	padding: 20px;
+}
+
+.mug {
+	display: inline-block;
+	width: 295px;
+	margin-right: 20px;
+}
+
+.info {
+	display: inline-block;
+	width: 500px;
+}
+
+/*footer area*/
+footer {
+	background: black;
+	color: gray;
+	padding: 75px 75px;
+}
+
+footer p {
+	margin: 0px;
+}
+
+footer a {
+	color: gray;
+	text-decoration: none;
+}
+
+.hostedby {
+	width: 400px;
+	display: inline-block;
+}
+
+.host {
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+}
+
+.hostmug {
+	width: 140px;
+	display: inline-block;
+}
+
+.hostmug img {
+	border-radius: 105px; 
+}
+
+.footerinfo {
+	width: 200px;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.social {
+	display: inline-block;
+	width: 260px;
+}
+
+.newsletter {
+	display: inline-block;
+	width: 260px;
+}
+
+.copyright {
+	margin: 30px 0px;
+}
