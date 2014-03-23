@@ -47,6 +47,7 @@ a:hover {
 /*header area*/
 .header {
 	background: rgb(25, 11, 31);
+	min-width: 900px;
 	
 }
 
@@ -85,6 +86,7 @@ a:hover {
 	background: black;
 	color: white;
 	height: 90px;
+	min-width: 900px;
 }
 
 .navbar ul {
@@ -124,6 +126,7 @@ a:hover {
 /*content*/
 .content {
 	padding: 60px 75px 0px;
+	min-width: 900px;
 }
 
 .designer {
@@ -141,6 +144,7 @@ a:hover {
 
 .info {
 	padding: 20px;
+
 }
 
 .mug {
@@ -159,6 +163,7 @@ footer {
 	background: black;
 	color: gray;
 	padding: 75px 75px;
+	min-width: 900px;
 }
 
 footer p {
